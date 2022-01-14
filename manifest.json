@@ -1,0 +1,23 @@
+{
+    "name": "ITFlow Login Helper",
+    "description": "Helps to fill login forms using the ITFlow login database.",
+    "version": "0.0.0.1",
+    "manifest_version": 2,
+  
+    "browser_action": {
+        "default_title": "Click to fill credentials"
+    },
+
+    "options_ui": {
+      "page": "options.html"
+    },
+  
+    "background": {
+      "scripts": ["background.js"]
+    },
+    
+    "permissions": [
+      "storage",
+      "activeTab"
+    ]
+  }
